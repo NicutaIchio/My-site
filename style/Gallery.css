@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding:0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* HEADER */
+.header {
+	padding: 30px 0;
+	background-color: #0d50bc;
+}
+.header h1,
+.header h2 {
+	font-size: 50px;
+	color:#77b3ef;
+	text-align: center;
+font-family: matura mt script capitals, sans-serif;
+}
+
+.galery img
+{
+	margin:15px;
+	border:3px solid green;
+
+}
+a.photo:hover img
+{
+	border:3px solid #034F80;
+}
+
+.footer {
+	background-color: #231d7a;
+	color: white;
+	padding: 20px 0;
+	margin-top: 60px;
+
+}
